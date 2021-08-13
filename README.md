@@ -7,7 +7,6 @@ This is just a simple state machine engine in C to be used in personal projects.
 * The function pointers can be tweaked to your needs.
 * The engine is pretty much self-explanatory, but just in case:
     * Create a State Machine object using the `State Machine` structure.
-    * Pass the pointer to your initial state to the variable `(*initial_state)(void)`.
     * Run `initStateMachine` once you wanna set it up.
     * Just call `runStateMachine` inside an infinite loop to run it.
     * Pass the next state function pointer to `setNextState` when you wanna change states.
